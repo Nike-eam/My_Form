@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+   <link href="https://fonts.googleapis.com/css?family=Exo+2|Play" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stn.css">
+  <style type="text/css">
+	.content{
+	margin:0 auto;
+	width:1200px;
+	height:500px;
+	border:3px solid yellow;
+	background:#303f97;
+             -webkit-box-shadow: -2px 2px 46px 1px rgba(0,0,0,0.75);
+             -moz-box-shadow: -2px 2px 46px 1px rgba(0,0,0,0.75);
+             box-shadow: -2px 2px 46px 1px rgba(0,0,0,1);
+             border-radius:10px;
+	}
+	.content_1{
+	float:left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+	height:450px;
+}
+p{
+color:black;
+margin-bottom:5px;
+font-size:16px;
+font-family: 'Play', sans-serif;
+margin-top:5px;
+
+
+    width: 300px;
+  
+
+
+}
+.my_form{
+	        width:250px;
+	        height:25px;
+	        margin-bottom:15px;
+	        border: 1px solid blue;
+	        background:#003366;
+	        color:blue;
+	        background:url("");
+		    font-family: 'Play', sans-serif;
+		    font-size:16px;
+			
+    margin-left: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+	        }
+.content_2{
+background:#e2e2e2;
+float:left;
+height:500px;
+width:320px;
+}
+.content_3{
+float:right;
+	height:500px;
+	background:#e2e2e2;
+	
+    margin-left: 0px;
+    width: 600px;
+    margin-right: 0px;
+
+}
+.content_3_one_radio{
+   
+    width: 160px;
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+padding-left:20px;
+    
+	font-family: 'Play', sans-serif;
+}
+.content_4_one_radio{
+   
+    width: 90px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+	font-family: 'Play', sans-serif;
+}
+.radio{
+background:blue;
+}
+.content_3_text_1{
+float:left;
+}
+.content_3_text_2{
+float:right;
+
+    width: 200px;
+    margin-right: 30px;
+
+}
+.content_3_text_3{
+width:150px;
+float:left;
+}
+.content_3_distance{
+font-size:14px;
+padding:0px;
+}
+h5{
+width:250px;
+color:#959595;
+margin:0px;
+}
+  </style>
+ </head>
+ <body>
+  <div id="" class="content">
+	 <div id="" class="content_1">
+	            <div id="" class="platform">
+                      <h1>Avito.ru</h1>
+		              <span class="zakaz">форма заказа</span>
+		        <div id="" class="form">
+		          <img src="programmer.png" width="100" height="100" border="0" alt="" class="programmer_img">
+		          <input type="text" name="login" class="last_name" value="Ф.И.О">
+		          <input type="text" name="text"  class="E-mail" value="E-mail">
+		          <input type="text" name="login" class="telephone" value="Телефон">
+		          <input type="text" name="text"  class="reserve" value="Резервный номер">
+		          <a href="#" class="button" onclick="but()">Продолжить</a>
+	            </div>
+   </div>
+	 
+	 
+	 
+	 </div>
+	 <div id="" class="content_2">
+	       <div id="" class="content_2_one">
+		   <p>Раздел/Подраздел публикации*</p>
+	       <input type="text" name="" class="my_form" value="Введите текст">
+	        </div>
+
+			  <div id="" class="content_3_one">
+		   <p>Ежедневное количество публикаций</p>
+	         <div id="" class="content_3_one_radio">
+				<input type="radio" name="" class="radio">5 ПУБЛИКАЦИЙ
+				<input type="radio" name="" class="radio">10 ПУБЛИКАЦИЙ
+				<input type="radio" name="" class="radio">15 ПУБЛИКАЦИЙ
+				<input type="radio" name="" class="radio">20 ПУБЛИКАЦИЙ
+				<input type="radio" name="" class="radio">25 ПУБЛИКАЦИЙ
+				<input type="radio" name="" class="radio">30 ПУБЛИКАЦИЙ
+				<input type="radio" name="" class="radio">50 ПУБЛИКАЦИЙ
+				<input type="radio" name="" class="radio">Другое
+	         </div>
+		<p>Срок публикации обїявления</p>
+	         <div id="" class="content_4_one_radio">
+				<input type="radio" name="" class="radio"> 5 Дней
+				<input type="radio" name="" class="radio"> 7 Дней
+				<input type="radio" name="" class="radio"> 14 Дней
+				<input type="radio" name="" class="radio"> 21 Дней
+				<input type="radio" name="" class="radio"> 30 Дней
+				<input type="radio" name="" class="radio"> Другое
+	         </div>
+	        </div>
+	 
+	 </div>
+	
+	 
+	 
+		
+	
+	 
+	 <div id="" class="content_3">
+	 <div id="" class="content_3_text_1">
+		<p class="content_3_distance">В какие дни недели публиковать объявления? *</p>
+<input type="checkbox" name="">Вся неделя
+<input type="checkbox" name="">Будние дни
+	 </div>
+	 <div id="" class="content_3_text_2">
+		<p>Ценовой диапазон товара или услуги *</p>
+Пример: От 1000 до 1500руб Данная цена случайным образом будет поставляться к объявлению.
+
+Мой ответ
+
+	 </div>
+	 <div id="" class="content_3_text_3">
+		<p>Телефон для переадресации звонков с avito.ru *</p>
+<h5>Примечание: при поступившем звонке необходимо сбрасывать и перезванивать. Детальная информация в разделе FAQ.</h5>
+	 </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 </div>
+	
+  </div>
+ </body>
+</html>
